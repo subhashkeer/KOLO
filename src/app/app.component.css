@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+   #img {
+    width: 100%;
+    height: auto;
+    background-image: url('D:\KOLO\kolo\src\assets\images\img1.jpg');
+    background-size:cover;
+  }
+ 
+ #cstmfont
+ {
+  font-family: 'Montserrat', sans-serif;
+ }

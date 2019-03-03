@@ -1,0 +1,32 @@
+<div class="container col-md-12">
+<table class="table bg-light">
+<tr>
+    <td>
+        <select>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Haridwar">Haridwar</option>
+            <option value="Dehradun">Dehradun</option>
+          </select>
+    </td>
+    <td>
+        <input type="text" placeholder="Select Start Date & Time">
+    </td>
+    <td>
+        <input type="text" placeholder="Select End Date & Time">
+    </td>
+    <td>
+        <button class="btn btn-block btn-primary">Book Now</button>
+    </td>
+</tr>
+</table>
+</div>
+
+
+<dl-date-time-picker
+                             [(maxView)]="maxView" 
+                             [(minView)]="minView" 
+                             [(startView)]="startView"
+                             [(minuteStep)]="minuteStep"
+                             [(ngModel)]="selectedDate"
+                             (change)="onCustomDateChange($event)">
+                            </dl-date-time-picker>
